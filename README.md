@@ -16,12 +16,21 @@ Current version: v1.0.11
 -------
 ### Install
 ```
-git clone https://github.com/foxer666/node-open-mining-portal.git pool
-cd pool
+git clone git@github.com:0xforde/node-open-mining-portal.git
 npm install
 node init.js
 ```
 -------
+
+# Start up
+
+```
+# start stratum mining pool
+redis-server /usr/local/etc/redis.conf
+# it's important that you start with sudo for some reason
+sudo node init.js
+```
+
 ### Requirements
 * Node 8.x.x or higher
 * Coin daemon
