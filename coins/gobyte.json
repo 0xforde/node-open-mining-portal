@@ -1,0 +1,6 @@
+{
+    "name": "GoByte",
+    "symbol": "GBX",
+    "algorithm": "neoscrypt",
+    "peerMagic": "1ab2c3d5"
+}
